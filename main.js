@@ -6,7 +6,7 @@ function cleanAndCap (str){
   if(!str) return null
   let temp = str.trim()
   return temp[0].toUpperCase() + temp.substring(1)
-}
+} 
 
 // Assigning the variables with values used in the story
 const firstAnimal= cleanAndCap(words.get('animal-1'));
